@@ -1,6 +1,6 @@
 {
-  "title": "Measured Studios",
-  "name": "measured-studios",
+  "title": "Jovi",
+  "name": "jovi-solutions",
   "version": "0.1.0",
   "private": true,
   "description": "A platform for communicating and supporting leaders and managers.",
@@ -10,43 +10,80 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MeasuredStudios/measuredstudios.com"
+    "url": "https://github.com/MeasuredStudios/jovi.solutions"
   },
   "bugs": {
-    "url": "https://github.com/MeasuredStudios/measuredstudios.com/issues"
+    "url": "https://github.com/MeasuredStudios/jovi.solutions/issues"
   },
-  "homepage": "https://www.measuredstudios.com/",
+  "homepage": "https://www.jovi.solutions/",
   "author": "Jovani Pink",
   "contributors": [
     "Jovani Pink (https://www.jovanipink.com/)"
   ],
   "dependencies": {
-    "gatsby": "2.19.32",
-    "@narative/gatsby-theme-novela": "0.13.3",
-    "gatsby-plugin-facebook-pixel": "1.0.3",
-    "gatsby-plugin-google-analytics": "2.1.37",
-    "gatsby-plugin-manifest": "2.2.44",
-    "gatsby-plugin-netlify": "2.1.34",
-    "gatsby-plugin-offline": "3.0.37",
-    "gatsby-plugin-react-helmet": "3.1.23",
-    "gatsby-plugin-robots-txt": "1.5.0",
-    "gatsby-plugin-sitemap": "2.2.28",
+    "dotenv": "8.2.0",
     "react": "16.13.0",
     "react-dom": "16.13.0",
     "prop-types": "15.7.2",
-    "react-helmet": "5.2.1"
+    "react-helmet": "5.2.1",
+    "gatsby": "2.19.32",
+    "@narative/gatsby-theme-novela": "0.13.3",
+    "gatsby-plugin-react-helmet": "3.1.23",
+    "gatsby-plugin-manifest": "2.2.44",
+    "gatsby-plugin-sitemap": "2.2.28",
+    "gatsby-plugin-robots-txt": "1.5.0",
+    "gatsby-plugin-offline": "3.0.37",
+    "gatsby-plugin-facebook-pixel": "1.0.3",
+    "gatsby-plugin-google-analytics": "2.1.37",
+    "gatsby-plugin-netlify": "2.1.34",
+    "gatsby-source-google-spreadsheet": "2.0.0"
   },
   "devDependencies": {
-    "prettier": "1.19.1"
+    "@types/node": "13.9.1",
+    "@types/react": "16.9.23",
+    "@types/react-dom": "16.9.5",
+    "@types/prop-types": "15.7.3",
+    "@types/react-helmet": "5.0.15",
+    "@types/babel-core": "6.25.6",
+    "@types/jest": "25.1.4",
+    "@types/eslint": "6.1.8",
+    "@types/prettier": "1.19.0",
+    "@types/eslint-plugin-prettier": "2.2.0",
+    "eslint": "6.8.0",
+    "@typescript-eslint/eslint-plugin": "2.23.0",
+    "@typescript-eslint/parser": "2.23.0",
+    "eslint-config-airbnb-typescript": "7.0.0",
+    "eslint-config-prettier": "6.10.0",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-jest": "23.8.2",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-react": "7.19.0",
+    "eslint-plugin-react-hooks": "2.5.0",
+    "eslint-plugin-simple-import-sort": "5.0.2",
+    "eslint-plugin-testing-library": "2.2.3",
+    "prettier": "1.19.1",
+    "jest": "25.1.0",
+    "jest-emotion": "10.0.27",
+    "ts-jest": "25.2.1",
+    "react-test-renderer": "16.13.0",
+    "@testing-library/react": "10.0.1",
+    "@testing-library/react-hooks": "3.2.1",
+    "@testing-library/user-event": "10.0.0",
+    "@testing-library/je,st-dom": "5.1.1",
+    "husky": "4.2.3",
+    "lint-staged": "10.0.8"
   },
   "scripts": {
     "build": "gatsby build",
-    "dev": "gatsby develop",
     "clean": "gatsby clean",
-    "format": "prettier --write '**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "develop": "gatsby develop",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.{ts,tsx,js,json,yml,md}\"",
+    "lint": "eslint --ignore-path .gitignore \"**/*.{ts,tsx,js}\"",
+    "serve": "gatsby serve",
+    "test": "jest",
   },
   "engines": {
-    "node": ">= 8.0"
+    "node": ">= 10.19.0"
   }
 }
