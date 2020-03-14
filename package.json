@@ -28,7 +28,6 @@
     "react-helmet": "5.2.1",
     "gatsby": "2.19.32",
     "@narative/gatsby-theme-novela": "0.13.3",
-    "gatsby-plugin-react-helmet": "3.1.23",
     "gatsby-plugin-manifest": "2.2.44",
     "gatsby-plugin-sitemap": "2.2.28",
     "gatsby-plugin-robots-txt": "1.5.0",
@@ -82,7 +81,12 @@
     "lint": "eslint --ignore-path .gitignore \"**/*.{ts,tsx,js}\"",
     "serve": "gatsby serve",
     "test": "jest",
+    "type-check": "tsc"
   },
+  "browserslist": [
+    "last 2 versions",
+    "not dead"
+  ],
   "engines": {
     "node": ">= 10.19.0"
   }
