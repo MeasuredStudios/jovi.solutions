@@ -1,8 +1,12 @@
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 module.exports = {
   siteMetadata: {
-    title: `Measured Studios`,
-    name: `Measured Studios`,
-    siteUrl: `https://www.measuredstudios.com`,
+    title: `Jovi Solutions`,
+    name: `Jovi Solutions`,
+    siteUrl: `https://www.jovi.solutions`,
     description: `A platform for communicating and supporting leaders and managers.`,
     keywords: '',
     hero: {
@@ -49,8 +53,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Measured Studios`,
-        short_name: `Measured Studios`,
+        name: `Jovi Solutions`,
+        short_name: `Jovi Solutions`,
         description: `A platform for communicating and supporting leaders and managers.`,
         start_url: `/`,
         background_color: `#fff`,
@@ -103,8 +107,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
-        host: 'https://www.measuredstudios.com',
-        sitemap: 'https://www.measuredstudios.com/sitemap.xml',
+        host: 'https://www.jovi.solutions',
+        sitemap: 'https://www.jovi.solutions/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }],
       },
     },
@@ -116,13 +120,18 @@ module.exports = {
         head: false,
         sampleRate: 5,
         siteSpeedSampleRate: 10,
-        cookieDomain: 'measuredstudios.com',
+        cookieDomain: 'jovi.solutions',
       },
     },
     {
-      resolve: `gatsby-plugin-facebook-pixel`,
+      resolve: `gatsby-source-google-spreadsheet`,
       options: {
-        pixelId: '638962779870653',
+        spreadsheetId: '',
+        spreadsheetName: 'current',
+        credentials: {
+          client_email: '',
+          private_key: '',
+        },
       },
     },
     // make sure to put last in the array
