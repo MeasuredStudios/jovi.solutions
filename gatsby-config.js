@@ -115,7 +115,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-103072419-1',
+        trackingId: '',
         // Puts tracking script in the head instead of the body
         head: false,
         sampleRate: 5,
@@ -123,17 +123,17 @@ module.exports = {
         cookieDomain: 'jovi.solutions',
       },
     },
-    {
-      resolve: `gatsby-source-google-spreadsheet`,
-      options: {
-        spreadsheetId: '',
-        spreadsheetName: 'current',
-        credentials: {
-          client_email: '',
-          private_key: '',
-        },
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-google-spreadsheet`,
+    //   options: {
+    //     spreadsheetId: '',
+    //     spreadsheetName: 'current',
+    //     credentials: {
+    //       client_email: '',
+    //       private_key: '',
+    //     },
+    //   },
+    // },
     // make sure to put last in the array
     {
       resolve: `gatsby-plugin-netlify`,
