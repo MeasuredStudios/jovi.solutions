@@ -60,40 +60,40 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#fff`,
         display: `standalone`,
-        icon: `src/assets/favicon/favicon-96x96.png`,
+        icon: `static/favicon/favicon-96x96.png`,
         icons: [
           {
-            src: '/android-icon-36x36.png',
+            src: 'favicon/android-icon-36x36.png',
             sizes: '36x36',
             type: 'image/png',
             density: '0.75',
           },
           {
-            src: '/android-icon-48x48.png',
+            src: 'favicon/android-icon-48x48.png',
             sizes: '48x48',
             type: 'image/png',
             density: '1.0',
           },
           {
-            src: '/android-icon-72x72.png',
+            src: 'favicon/android-icon-72x72.png',
             sizes: '72x72',
             type: 'image/png',
             density: '1.5',
           },
           {
-            src: '/android-icon-96x96.png',
+            src: 'favicon/android-icon-96x96.png',
             sizes: '96x96',
             type: 'image/png',
             density: '2.0',
           },
           {
-            src: '/android-icon-144x144.png',
+            src: 'favicon/android-icon-144x144.png',
             sizes: '144x144',
             type: 'image/png',
             density: '3.0',
           },
           {
-            src: '/android-icon-192x192.png',
+            src: 'favicon/android-icon-192x192.png',
             sizes: '192x192',
             type: 'image/png',
             density: '4.0',
@@ -115,7 +115,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-103072419-1',
+        trackingId: '',
         // Puts tracking script in the head instead of the body
         head: false,
         sampleRate: 5,
@@ -123,17 +123,17 @@ module.exports = {
         cookieDomain: 'jovi.solutions',
       },
     },
-    {
-      resolve: `gatsby-source-google-spreadsheet`,
-      options: {
-        spreadsheetId: '',
-        spreadsheetName: 'current',
-        credentials: {
-          client_email: '',
-          private_key: '',
-        },
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-google-spreadsheet`,
+    //   options: {
+    //     spreadsheetId: '',
+    //     spreadsheetName: 'current',
+    //     credentials: {
+    //       client_email: '',
+    //       private_key: '',
+    //     },
+    //   },
+    // },
     // make sure to put last in the array
     {
       resolve: `gatsby-plugin-netlify`,
