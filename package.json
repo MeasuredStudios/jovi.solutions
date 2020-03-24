@@ -71,7 +71,7 @@
     "@testing-library/user-event": "10.0.0",
     "@testing-library/jest-dom": "5.1.1",
     "husky": "4.2.3",
-    "lint-staged": "10.0.8"
+    "lint-staged": "10.0.9"
   },
   "scripts": {
     "build": "gatsby build",
