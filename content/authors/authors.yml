@@ -5,15 +5,13 @@
   featured: true
   social:
     - name: github
-      url: https://github.com
+      url: https://github.com/christinepink
     - name: twitter
-      url: https://github.com
+      url: https://twitter.com/christinepink
     - name: instagram
-      url: https://github.com
-    - name: dribbble
-      url: https://github.com
+      url: https://www.instagram.com/coachchristinepink/
     - name: linkedin
-      url: https://github.com
+      url: https://www.linkedin.com/in/christine-rosado-4432a5182/
 
 - name: Jovani Pink
   bio: |
@@ -22,12 +20,10 @@
   featured: false
   social:
     - name: github
-      url: https://github.com
+      url: https://github.com/JovaniPink
     - name: twitter
-      url: https://github.com
+      url: https://twitter.com/JovaniPink
     - name: instagram
-      url: https://github.com
-    - name: dribbble
-      url: https://github.com
+      url: https://www.instagram.com/jovanipink/
     - name: linkedin
-      url: https://github.com
+      url: https://www.linkedin.com/in/jovanipink/
