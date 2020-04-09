@@ -25,7 +25,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "prop-types": "15.7.2",
-    "react-helmet": "5.2.1",
+    "react-helmet": "6.0.0",
     "gatsby": "2.20.15",
     "gatsby-link": "2.3.2",
     "@narative/gatsby-theme-novela": "0.14.0",
