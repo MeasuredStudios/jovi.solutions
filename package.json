@@ -64,7 +64,7 @@
     "prettier": "2.1.2",
     "jest": "26.4.2",
     "jest-emotion": "10.0.32",
-    "ts-jest": "26.4.0",
+    "ts-jest": "26.4.1",
     "react-test-renderer": "16.13.1",
     "@testing-library/react": "11.0.4",
     "@testing-library/react-hooks": "3.4.1",
