@@ -28,7 +28,7 @@
     "react-helmet": "6.1.0",
     "gatsby": "2.32.3",
     "gatsby-link": "2.11.0",
-    "@narative/gatsby-theme-novela": "0.18.5",
+    "@narative/gatsby-theme-novela": "0.18.6",
     "gatsby-plugin-manifest": "2.12.0",
     "gatsby-plugin-sitemap": "2.12.0",
     "gatsby-plugin-robots-txt": "1.5.5",
