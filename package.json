@@ -26,16 +26,16 @@
     "react-dom": "17.0.2",
     "prop-types": "15.7.2",
     "react-helmet": "6.1.0",
-    "gatsby": "3.1.2",
-    "gatsby-link": "3.1.0",
+    "gatsby": "3.2.1",
+    "gatsby-link": "3.2.0",
     "@narative/gatsby-theme-novela": "0.18.7",
-    "gatsby-plugin-manifest": "3.1.0",
-    "gatsby-plugin-sitemap": "3.1.0",
+    "gatsby-plugin-manifest": "3.2.0",
+    "gatsby-plugin-sitemap": "3.2.0",
     "gatsby-plugin-robots-txt": "1.5.5",
-    "gatsby-plugin-offline": "4.1.0",
-    "gatsby-plugin-google-analytics": "3.1.0",
+    "gatsby-plugin-offline": "4.2.0",
+    "gatsby-plugin-google-analytics": "3.2.0",
     "gatsby-source-google-spreadsheet": "2.0.0",
-    "gatsby-plugin-netlify": "3.1.0"
+    "gatsby-plugin-netlify": "3.2.0"
   },
   "devDependencies": {
     "@types/node": "13.13.48",
